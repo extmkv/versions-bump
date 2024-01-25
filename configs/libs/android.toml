@@ -1,0 +1,16 @@
+[versions]
+androidGradle = "8.2.1"
+material = "1.9.0"
+playCore = "1.8.0"
+playCoreKtx = "1.8.1"
+versionsUpdate = "0.8.3"
+
+[libraries]
+material = { module = "com.google.android.material:material", version.ref = "material" }
+playCore = { module = "com.google.android.play:core", version.ref = "playCore" }
+playCoreKtx = { module = "com.google.android.play:core-ktx", version.ref = "playCoreKtx" }
+
+[plugins]
+application = { id = "com.android.application", version.ref = "androidGradle" }
+library = { id = "com.android.library", version.ref = "androidGradle" }
+gradle-versionsUpdate = { id = "nl.littlerobots.version-catalog-update", version.ref = "versionsUpdate" }

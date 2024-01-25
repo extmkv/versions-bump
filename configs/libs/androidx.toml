@@ -1,0 +1,98 @@
+[versions]
+constraintLayout = "2.1.4"
+constraintLayoutCompose = "1.0.1"
+test = "1.5.0"
+testRunner = "1.5.2"
+test_ext = "1.1.5"
+test_ext_rules = "1.5.0"
+appCompat = "1.6.1"
+room = "2.6.1"
+lifecycle = "2.6.2"
+lifecycleExtensions = "2.2.0"
+lifecycleComposeExtension = "2.6.2"
+arch = "2.2.0"
+core_ktx = "1.12.0"
+recyclerview = "1.3.2"
+navigation = "2.7.4"
+navigationRuntime = "2.7.4"
+navigationSafeArgs = "2.7.4"
+viewPager2 = "1.1.0-beta02"
+coordinatorlayout = "1.2.0"
+swiperefreshlayout = "1.1.0"
+espresso = "3.5.1"
+workManager = "2.9.0"
+activity = "1.8.1"
+fragment = "1.6.2"
+fragmentTesting = "1.6.2"
+datastoreCore = "1.0.0"
+compose = "1.6.0"
+composeFoundation = "1.6.0"
+composeMaterial = "1.6.0"
+composeMaterialIconsCore = "1.6.0"
+composeRuntime = "1.6.0"
+composeUI = "1.6.0"
+viewbinding = "8.2.0"
+
+[libraries]
+activityKtx = { module = "androidx.activity:activity-ktx", version.ref = "activity" }
+activityCompose = { module = "androidx.activity:activity-compose", version.ref = "activity" }
+appcompat = { module = "androidx.appcompat:appcompat", version.ref = "appCompat" }
+constraintlayout = { module = "androidx.constraintlayout:constraintlayout", version.ref = "constraintLayout" }
+constraintlayoutCompose = { module = "androidx.constraintlayout:constraintlayout-compose", version.ref = "constraintLayoutCompose" }
+coordinatorlayout = { module = "androidx.coordinatorlayout:coordinatorlayout", version.ref = "coordinatorlayout" }
+core = { module = "androidx.test:core", version.ref = "test" }
+coreKtx = { module = "androidx.core:core-ktx", version.ref = "core_ktx" }
+coreTesting = { module = "androidx.arch.core:core-testing", version.ref = "arch" }
+espressoCore = { module = "androidx.test.espresso:espresso-core", version.ref = "espresso" }
+fragmentKtx = { module = "androidx.fragment:fragment-ktx", version.ref = "fragment" }
+fragment = { module = "androidx.fragment:fragment", version.ref = "fragment" }
+junit = { module = "androidx.test.ext:junit", version.ref = "test_ext" }
+testRules = { module = "androidx.test:rules", version.ref = "test_ext_rules" }
+lifecycleExtensions = { module = "androidx.lifecycle:lifecycle-extensions", version.ref = "lifecycleExtensions" }
+lifecycleLivedataKtx = { module = "androidx.lifecycle:lifecycle-livedata-ktx", version.ref = "lifecycle" }
+lifecycleRuntimeKtx = { module = "androidx.lifecycle:lifecycle-runtime-ktx", version.ref = "lifecycle" }
+lifecycleRuntime = { module = "androidx.lifecycle:lifecycle-runtime", version.ref = "lifecycle" }
+lifecycleViewmodelKtx = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", version.ref = "lifecycle" }
+lifecycleViewmodel = { module = "androidx.lifecycle:lifecycle-viewmodel", version.ref = "lifecycle" }
+lifecycleViewmodelCompose = { module = "androidx.lifecycle:lifecycle-viewmodel-compose", version.ref = "lifecycleComposeExtension" }
+lifecycleCommonJava8 = { module = "androidx.lifecycle:lifecycle-common-java8", version.ref = "lifecycle" }
+lifecycleCommon = { module = "androidx.lifecycle:lifecycle-common", version.ref = "lifecycle" }
+lifecycleLivedataCore = { module = "androidx.lifecycle:lifecycle-livedata-core", version.ref = "lifecycle" }
+lifecycleRuntimeCompose = { module = "androidx.lifecycle:lifecycle-runtime-compose", version.ref = "lifecycle" }
+navigationFragmentKtx = { module = "androidx.navigation:navigation-fragment-ktx", version.ref = "navigation" }
+navigationCommon = { module = "androidx.navigation:navigation-common", version.ref = "navigation" }
+navigationRuntimeKtx = { module = "androidx.navigation:navigation-runtime-ktx", version.ref = "navigation" }
+navigationRuntime = { module = "androidx.navigation:navigation-runtime", version.ref = "navigationRuntime" }
+navigationUiKtx = { module = "androidx.navigation:navigation-ui-ktx", version.ref = "navigation" }
+recyclerview = { module = "androidx.recyclerview:recyclerview", version.ref = "recyclerview" }
+roomCompiler = { module = "androidx.room:room-compiler", version.ref = "room" }
+roomKtx = { module = "androidx.room:room-ktx", version.ref = "room" }
+roomRuntime = { module = "androidx.room:room-runtime", version.ref = "room" }
+roomTesting = { module = "androidx.room:room-testing", version.ref = "room" }
+rules = { module = "androidx.test:rules", version.ref = "test" }
+runner = { module = "androidx.test:runner", version.ref = "testRunner" }
+swiperefreshlayout = { module = "androidx.swiperefreshlayout:swiperefreshlayout", version.ref = "swiperefreshlayout" }
+testCoreKtx = { module = "androidx.test:core-ktx", version.ref = "test" }
+lifecycleRuntimeTesting = { module = "androidx.lifecycle:lifecycle-runtime-testing", version.ref = "lifecycle" }
+viewpager2 = { module = "androidx.viewpager2:viewpager2", version.ref = "viewPager2" }
+workManager = { module = "androidx.work:work-runtime", version.ref = "workManager" }
+workManagerKtx = { module = "androidx.work:work-runtime-ktx", version.ref = "workManager" }
+workManagerTesting = { module = "androidx.work:work-testing", version.ref = "workManager" }
+datastore = { module = "androidx.datastore:datastore", version.ref = "datastoreCore" }
+datastorePreferences = { module = "androidx.datastore:datastore-preferences", version.ref = "datastoreCore" }
+fragmentTesting = { module = "androidx.fragment:fragment-testing", version.ref = "fragmentTesting" }
+composeUI = { module = "androidx.compose.ui:ui", version.ref = "composeUI" }
+composeUIUtil = { module = "androidx.compose.ui:ui-util", version.ref = "composeUI" }
+composeUITooling = { module = "androidx.compose.ui:ui-tooling", version.ref = "compose" }
+composeUIFoundation = { module = "androidx.compose.foundation:foundation", version.ref = "composeFoundation" }
+composeMaterial = { module = "androidx.compose.material:material", version.ref = "composeMaterial" }
+composeMaterialIconsCore = { module = "androidx.compose.material:material-icons-core", version.ref = "composeMaterialIconsCore" }
+composeRuntimeLiveData = { module = "androidx.compose.runtime:runtime-livedata", version.ref = "compose" }
+composeRuntime = { module = "androidx.compose.runtime:runtime", version.ref = "composeRuntime" }
+composeUiTest = { module = "androidx.compose.ui:ui-test-junit4", version.ref = "compose" }
+composeUiTestManifest = { module = "androidx.compose.ui:ui-test-manifest", version.ref = "compose" }
+dataBinding = { module = "androidx.databinding:viewbinding", version.ref = "viewbinding" }
+composeNavigation = { module = "androidx.navigation:navigation-compose", version.ref = "navigation" }
+
+[plugins]
+navigationSafeArgs = { id = "androidx.navigation.safeargs.kotlin", version.ref = "navigationSafeArgs" }
