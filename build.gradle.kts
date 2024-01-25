@@ -2,8 +2,8 @@ import nl.littlerobots.vcu.plugin.ExperimentalVersionCatalogUpdateTask
 
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 plugins {
-    alias(libs.plugins.android.application) apply false
-    alias(libs.plugins.jetbrains.kotlin.android) apply false
+    alias(libsLib.plugins.android.application) apply false
+    alias(libsLib.plugins.jetbrains.kotlin.android) apply false
     alias(androidLib.plugins.gradle.versionsUpdate)
 }
 
